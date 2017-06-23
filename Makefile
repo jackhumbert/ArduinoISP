@@ -7,8 +7,8 @@
 # License: GNU GPL v2 (see License.txt), GNU GPL v3 or proprietary (CommercialLicense.txt)
 # This Revision: $Id: Makefile 692 2008-11-07 15:07:40Z cs $
 
-DEVICE  = attiny44
-F_CPU   = 12000000	# in Hz
+DEVICE  = atmega32u4
+F_CPU   = 16000000	# in Hz
 FUSE_L  = 0xFF
 FUSE_H  = 0xDF
 AVRDUDE = avrdude -c avrispmkii -P usb -p $(DEVICE) # edit this line for your programmer

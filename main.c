@@ -54,8 +54,8 @@ enum
 //	SCK	PA4
 //	MOSI	PA6
 // ----------------------------------------------------------------------
-#define	PORT		PORTA
-#define	DDR		DDRA
+#define	PORT		PORTB
+#define	DDR		DDRB
 #define	POWER_MASK	0x02
 #define	RESET_MASK	(1 << 3)
 #define	SCK_MASK	(1 << 4)
@@ -66,7 +66,7 @@ enum
 // Programmer input pins:
 //	MISO	PA5
 // ----------------------------------------------------------------------
-#define	PIN		PINA
+#define	PIN		PINB
 #define	MISO_MASK	(1 << 5)
 
 // ----------------------------------------------------------------------
